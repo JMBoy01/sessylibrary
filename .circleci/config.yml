@@ -28,6 +28,7 @@ jobs:
 
     before_steps:
       # ik heb dit toegevoegd
+      - cd frontend
       - npm install
 
     steps:
