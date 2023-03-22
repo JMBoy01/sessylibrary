@@ -50,3 +50,7 @@ jobs:
 
       # run tests!
       - run: gradle test
+
+    install:
+      - ./gradlew frontendSync --stacktrace
+      - ./gradlew shadowJar
