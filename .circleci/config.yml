@@ -31,7 +31,7 @@ jobs:
       - cd frontend
       - npm install
     
-    working_directory: /tmp
+    working_directory: ~/repo/tmp
     
     steps:
       - checkout
